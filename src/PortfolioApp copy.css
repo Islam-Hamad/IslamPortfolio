@@ -1,0 +1,739 @@
+.portfolio-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  header {
+    background-color: #272c3f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  nav button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color: #525975;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  nav button.active, nav button:hover {
+    background-color: #364fc7;
+  }
+  
+  .home-section, .portfolio-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .portfolio-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+  }
+  
+  .portfolio-card:hover {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  }
+  
+  .portfolio-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .portfolio-card h3 {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #888;
+    border-top: 1px solid #ddd;
+  }
+  .education-section, .portfolio-section {
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+  }
+  
+  .education-details h4 {
+    color: #007bff;
+    margin-bottom: 4px;
+  }
+  
+  .education-details p, .education-details ul {
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #4c6ef5;
+    margin-bottom: 15px;
+  }
+  .portfolio-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .portfolio-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .portfolio-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .portfolio-card h4 {
+    color: #333; /* Dark text clearly visible */
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.9);
+    margin: 0;
+  }
+  .skills-section {
+    background-color: rgba(255,255,255,0.7);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+  }
+  
+  .skills-category {
+    margin-bottom: 20px;
+  }
+  
+  .skills-category h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .tag {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    color: #333;
+  }
+  
+  .tag.gis {
+    background-color: #d6e4ff;
+  }
+  
+  .tag.programming {
+    background-color: #d9f7be;
+  }
+  
+  .tag.geoai {
+    background-color: #efdbff;
+  }
+  
+  .tag.utility {
+    background-color: #fff7e6;
+  }
+  
+  .tag.database {
+    background-color: #ffd6e7;
+  }
+  
+  .certifications h3 {
+    margin-top: 25px;
+    color: #333;
+  }
+  
+  .certifications ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .certifications li {
+    padding: 3px 0;
+  }
+  .home-section {
+    background-color:rgba(255,255,255,0.7);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-card {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #eaeaea;
+  }
+  
+  .profile-card h2 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .profile-info {
+    text-align: left;
+    margin-top: 15px;
+    display: inline-block;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  .career-objective {
+    margin-top: 30px;
+  }
+  
+  .career-objective h3 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .objective-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .objective-card {
+    background-color: #f7fbff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-left: 5px solid #609fff;
+  }
+  
+  .objective-card.experience { border-color: #609fff; }
+  .objective-card.expertise { border-color: #54d688; }
+  .objective-card.goal { border-color: #609fff; }
+  .objective-card.problem-solving { border-color: #2e5aac; }
+  
+  .objective-card strong {
+    color: #333;
+  }
+  
+  .featured-projects {
+    margin-top: 30px;
+  }
+  
+  .featured-projects h3 {
+    margin-bottom: 15px;
+  }
+  
+  .featured-projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .featured-projects li {
+    background-color: #f8f9fa;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .featured-projects button {
+    background: none;
+    border: none;
+    color: #609fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .featured-projects button {
+    background-color: transparent;
+    border: none;
+    color: #609fff;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .featured-projects button:hover {
+    color: #0067d7;
+  }
+  
+  .home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.7);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  .profile-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 8px;
+    font-size: 26px;
+    color: #333;
+  }
+  
+  .profile-details .title {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .contact-details p {
+    margin: 4px 0;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .contact-details p strong {
+    color: #333;
+  }
+  .home-section {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  
+  .personal-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .personal-info h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  .personal-info .job-title {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .personal-info p {
+    margin: 4px 0;
+    font-size: 15px;
+  }
+  
+  .career-projects-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .career-objective, .featured-projects {
+    flex: 1;
+  }
+  
+  .objective-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .objective-item {
+    background-color: #f0f7ff;
+    padding: 10px;
+    border-left: 5px solid;
+    border-radius: 4px;
+  }
+  
+  .experience {
+    border-color: #4b83f3;
+  }
+  .expertise {
+    border-color: #42c296;
+  }
+  .goal {
+    border-color: #4b83f3;
+  }
+  .problem-solving {
+    border-color: #42c296;
+  }
+  
+  .objective-item h4 {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .featured-projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .featured-projects li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  .featured-projects button {
+    border: none;
+    background: none;
+    color: #4b83f3;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .experience-section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 900px;
+}
+
+.experience-section h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.experience-list {
+    position: relative;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.experience-list::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #3f51b5;
+}
+
+.experience-list li {
+    position: relative;
+    padding: 15px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.experience-list li:hover {
+    transform: translateY(-5px);
+}
+
+.experience-list li::before {
+    content: '';
+    position: absolute;
+    left: -29px;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+    background-color: #3f51b5;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+.experience-list h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #3f51b5;
+}
+
+.experience-list p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.experience-list span {
+    font-size: 13px;
+    color: #999;
+}
+.education-section {
+  padding: 20px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.education-section h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.education-details h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.education-details p {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.education-details h3 {
+  color: #555;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.education-details ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.education-details ul li {
+  margin-bottom: 8px;
+  color: #444;
+}
+.education-section {
+  padding: 25px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.education-section h2 {
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.education-card {
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+}
+
+.education-card h4 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.education-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.certifications h3 {
+  font-size: 19px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.certifications ul {
+  padding-left: 20px;
+}
+
+.certifications li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+  list-style: disc;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  object-fit: cover;
+}
+
+.profile-container h2 {
+  margin-bottom: 5px;
+  font-size: 28px;
+  color: #222;
+}
+
+.profile-container h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.contact-info a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+/* Hover effect for Career Objective items */
+.career-projects-container .objective-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.career-projects-container .objective-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Hover effect for Featured Projects */
+.featured-projects ul li {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.featured-projects ul li:hover {
+  transform: translateX(8px);
+  color: #0056b3;
+}
+.profile-container {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.profile-image {
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+.portfolio-container {
+  background-image: url('/public/Images/world-map.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9; /* optional transparency */
+}
+
+
