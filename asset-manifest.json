@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/IslamPortfolio/static/css/main.2fe9c5a3.css",
+    "main.js": "/IslamPortfolio/static/js/main.7b640ce0.js",
+    "static/media/world-map.jpg": "/IslamPortfolio/static/media/world-map.8960b82bfac11ca21c10.jpg",
+    "index.html": "/IslamPortfolio/index.html",
+    "main.2fe9c5a3.css.map": "/IslamPortfolio/static/css/main.2fe9c5a3.css.map",
+    "main.7b640ce0.js.map": "/IslamPortfolio/static/js/main.7b640ce0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fe9c5a3.css",
+    "static/js/main.7b640ce0.js"
+  ]
+}
